@@ -14,5 +14,5 @@ type Options = {
 };
 
 export default function showdownShiki(
-  opts: Options
+  opts?: Options
 ): Showdown.Extension | Showdown.Extension[];
