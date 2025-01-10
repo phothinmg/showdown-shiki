@@ -12,7 +12,7 @@ type Themes =
 type Options = {
   themes?: Themes;
 };
-
+declare function decodeHtml(encodedString: string): string;
 export default function showdownShiki(
   opts?: Options
 ): Showdown.Extension | Showdown.Extension[];
