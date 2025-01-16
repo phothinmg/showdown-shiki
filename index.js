@@ -55,7 +55,7 @@ function shikiHL(code, lang, themes) {
 /**
  *
  * @param {import("./index").Options} [opts]
- * @returns {Showdown.Extension | Showdown.Extension[]}
+ * @returns {Showdown.ShowdownExtension | Showdown.ShowdownExtension[]}
  */
 function showdownShiki(opts) {
   function filter(text, converter, options) {

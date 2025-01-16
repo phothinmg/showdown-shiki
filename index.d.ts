@@ -15,4 +15,4 @@ type Options = {
 declare function decodeHtml(encodedString: string): string;
 export default function showdownShiki(
   opts?: Options
-): Showdown.Extension | Showdown.Extension[];
+): Showdown.ShowdownExtension | Showdown.ShowdownExtension[];
